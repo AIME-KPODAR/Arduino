@@ -1,0 +1,65 @@
+
+
+LCD DISPLAY
+| Broche LCD | Connexion                             |
+| ---------- | ------------------------------------- |
+| 1 (VSS)    | GND                                   |
+| 2 (VDD)    | +5V                                   |
+| 3 (V0)     | Patte centrale du potentiomètre 10 kΩ |
+| 4 (RS)     | D12                                   |
+| 5 (RW)     | GND                                   |
+| 6 (E)      | D11                                   |
+| 11 (D4)    | D5                                    |
+| 12 (D5)    | D4                                    |
+| 13 (D6)    | D3                                    |
+| 14 (D7)    | D2                                    |
+| 15 (A)     | +5V via résistance 220 Ω              |
+| 16 (K)     | GND                                   |
+
+
+POTENTIONMETRE
+| Broche      | Connexion      |
+| ----------- | -------------- |
+| Extrémité 1 | GND            |
+| Milieu      | LCD pin 3 (V0) |
+| Extrémité 3 | +5V            |
+
+
+SERVO MOTEUR
+| Fil Servo    | Connexion |
+| ------------ | --------- |
+| Rouge        | +5V       |
+| Noir/Marron  | GND       |
+| Orange/Jaune | D9        |
+
+
+LED VERTE
+| Élément               | Connexion           |
+| --------------------- | ------------------- |
+| D7                    | Résistance 220 Ω    |
+| Résistance            | Anode (+) LED verte |
+| Cathode (-) LED verte | GND                 |
+
+
+LED ROUGE 
+| Élément               | Connexion           |
+| --------------------- | ------------------- |
+| D8                    | Résistance 220 Ω    |
+| Résistance            | Anode (+) LED rouge |
+| Cathode (-) LED rouge | GND                 |
+
+
+BOUTTON ENTREE
+| Élément          | Connexion       |
+| ---------------- | --------------- |
+| Une borne        | +5V             |
+| Autre borne      | A0              |
+| Résistance 10 kΩ | Entre A0 et GND |
+
+
+BOUTTON SORTIE
+| Élément          | Connexion       |
+| ---------------- | --------------- |
+| Une borne        | +5V             |
+| Autre borne      | A1              |
+| Résistance 10 kΩ | Entre A1 et GND |

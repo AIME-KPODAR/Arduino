@@ -1,0 +1,13 @@
+CONNECTIVITE DES PINS 
+----------------------
+
+# Servo-moteur 
+- Jaune ----> D9
+- Marron ----> GND (+)
+- Rouge ----> VCC 5V (-)
+
+# Capteur HC-SR04
+- Trig ----> D2
+- Echo ----> D3
+- GND ----> GND (+)
+- VCC ----> VCC 5V (-)
